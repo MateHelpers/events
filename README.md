@@ -4,7 +4,7 @@ Stable, flexible and elegant event system for PHP projects.
 
 ## Getting started
 
-Firstly, you should create an Events class on your project extended from the `EventProvider` class, and put in your `$events` property, all the events and their subscribers:
+Firstly, you should create an Events class on your project extended from the `EventProvider` class, and put in your `$events` property, all your events and their subscribers:
 
 ``` php
 class Events extends EventProvider {
